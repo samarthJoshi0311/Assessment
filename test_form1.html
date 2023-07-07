@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="icon" href="https://img.icons8.com/?size=1x&id=119157&format=png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(221, 220, 220);
+        }
+        button{
+            margin: 2px;
+            padding: 2px;
+            width: 10%;
+            background-color: rgb(9, 158, 9);
+            color: #fff;
+        }
+        input{
+            margin: 0px 30px;
+        }
+        .gender{
+            width: 10%;
+        }
+        .ph{
+            margin: 20px 45px;
+            padding: 8px;
+            width: 50%;
+        }
+        .em{
+            margin: 35px 73px;
+            padding: 3px;
+            width: 50%;
+        }
+        .num{
+            margin: 30px 65px;
+            padding: 3px;
+            width: 50%;
+
+        }
+        .form-control{
+            margin: 0px 65px;
+        }
+        .city{
+            margin: 0px 85px;
+        }
+        .pin{
+            margin: 0px 52px;
+        }
+        .state{
+            margin: 0px 73px;
+        }
+        .opt{
+            margin: 0px 28px;
+        }
+        .check{
+            margin: 0px 120px;
+        }
+        .pass{
+            margin: 0px 52px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registaration Form</h1>
+
+      First Name:
+      <input type="text" placeholder="Enter your first name" required class="ph"><br>
+      Last Name:
+      <input type="text" placeholder="Enter your last name" required class="ph"><br>
+      Email:
+      <input type="text" placeholder="it should contain @.." required class="em"><br>
+      Mobile:
+      <input type="text" placeholder="Only 10 digits are allowed" required class="num"><br>
+      <br>
+      Gender:
+      <input type="radio" class="gender">Male
+      <input type="radio" class="gender">Female <br>
+      <br>
+      Date Of Birth:
+      <input type="date" required><br>
+      <br>
+      Addres:
+      <textarea class="form-control" cols="35" rows="12" required></textarea><br>
+      <br>
+      City:
+      <input type="text" required class="city"><br>
+      <br>
+      Area PIN:
+      <input type="text" required class="pin"><br>
+      <br>
+      State: &nbsp;
+      <input type="text" required class="state"><br>
+      <br>
+      Qualification:
+      <select class="opt">
+        <option>Select Qualification</option>
+        <option>10th Pass</option>
+        <option>12th Pass</option>
+        <option>B.tech</option>
+      </select> <br>
+      <br>
+      Specialization: <br>
+      <input type="checkbox" class="check">Computer Science <br>
+      <input type="checkbox" class="check">Information Technology <br>
+      <input type="checkbox" class="check">Computer Architecture <br>
+      <input type="checkbox" class="check">Tele Communication <br>
+      <br>
+      Password:
+      <input type="text" required class="pass"><br>
+      <br>
+      <button>Registered</button>
+</body>
+</html>
